@@ -24,7 +24,7 @@ public class ManajeUsersTest {
 	@Test
 	public void create_user() {
 		baseURI="http://localhost:3000/";
-		//POST-1
+		
 		UsersHelper users = new UsersHelper();
 
 		given().
@@ -39,12 +39,11 @@ public class ManajeUsersTest {
 	
 	@Ignore
 	@Test	
-	public void PATCH_test() {
+	public void parcial_user_update() {
 		baseURI="http://localhost:3000/";
 		//POST-1
 		JSONObject request = new JSONObject();
 		request.put("lastName", "Larrate");
-
 
 		given().
 		contentType(ContentType.JSON).accept(ContentType.JSON).
@@ -75,7 +74,7 @@ public class ManajeUsersTest {
 	
 	@Ignore
 	@Test	
-	public void DELETE_test1() {
+	public void delete_a_user() {
 		baseURI="http://localhost:3000/";
 		JSONObject request = new JSONObject();
 		given().
