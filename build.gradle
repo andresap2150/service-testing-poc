@@ -24,8 +24,15 @@ dependencies {
     // This dependency is used internally, and not exposed to consumers on their own compile classpath.
     implementation 'com.google.guava:guava:28.2-jre'
     implementation 'io.rest-assured:rest-assured-all:4.3.1'
+    implementation 'com.googlecode.json-simple:json-simple:1.1.1'
 
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'    
     testImplementation 'io.rest-assured:rest-assured:4.3.1'
+}
+
+test {
+    useJUnit()
+
+    maxHeapSize = '1G'
 }

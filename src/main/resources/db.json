@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "firstName": "Katy",
+      "lastName": "Garcia",
+      "subjectID": 1,
+      "id": 1
+    },
+    {
+      "firstName": "Diego",
+      "lastName": "Berdugo",
+      "subjectID": 2,
+      "id": 2
+    },
+    {
+      "firstName": "Nyree",
+      "lastName": "Larraste",
+      "subjectID": 1,
+      "id": 3
+    },
+    {
+      "firstName": "Diego",
+      "lastName": "Motoya",
+      "subjectID": 1,
+      "id": 4
+    },
+    {
+      "firstName": "Andres",
+      "lastName": "Aparicio",
+      "subjectID": 1,
+      "id": 5
+    }
+  ],
+  "subjects": [
+    {
+      "id": 1,
+      "name": "Maths"
+    },
+    {
+      "id": 2,
+      "name": "Science"
+    }
+  ]
+}
