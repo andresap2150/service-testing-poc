@@ -99,7 +99,8 @@ public class ManajeUsersTest {
 		body(users.generate_new_user("Emel", "Mora", 1)).
 		when().
 		post("/users").
-		then().statusCode(201).extract().path("id").toString();
+		then().statusCode(201)
+		.extract().path("id").toString();
 		
 		System.out.println("se creo, pero se va a borrar:"+newId);
 		
