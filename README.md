@@ -2,13 +2,9 @@
 
 This is a maven project with java 12, to show the basics of  automate rest API testing
 
-- You have to start a local server with the needed endpoints (json-server recomended)
-
-- To install the library use:
-`$ npm install -g json-server`
-
-- Start ther server use te db.json file in the resources folder, and execute the following:
-`$ json-server --watch db.json`
+- The Api under test is the [Rick and Morty API](https://rickandmortyapi.com/)
 
 To download the dependencies and execute all the tests use:
 `$ ./gradlew build`
+
+Also the test could be ran individually with Intellij IDE
